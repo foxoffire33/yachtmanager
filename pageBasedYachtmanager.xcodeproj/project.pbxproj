@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB25AC271C4FA12E007D3F49 /* LocalAccessTokenManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB25AC261C4FA12E007D3F49 /* LocalAccessTokenManager.swift */; settings = {ASSET_TAGS = (); }; };
+		FB25AC291C4FA42E007D3F49 /* RestApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB25AC281C4FA42E007D3F49 /* RestApiManager.swift */; settings = {ASSET_TAGS = (); }; };
+		FB6393F91C5108A400AA422F /* MaintenanceInfoBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6393F81C5108A400AA422F /* MaintenanceInfoBoxView.swift */; settings = {ASSET_TAGS = (); }; };
 		FB6C49D51C4F8357003E6363 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6C49D41C4F8357003E6363 /* AppDelegate.swift */; };
 		FB6C49D71C4F8357003E6363 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6C49D61C4F8357003E6363 /* ViewController.swift */; };
 		FB6C49DA1C4F8357003E6363 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB6C49D81C4F8357003E6363 /* Main.storyboard */; };
@@ -14,9 +17,39 @@
 		FB6C49DF1C4F8357003E6363 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB6C49DD1C4F8357003E6363 /* LaunchScreen.storyboard */; };
 		FB6C49EA1C4F8357003E6363 /* pageBasedYachtmanagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6C49E91C4F8357003E6363 /* pageBasedYachtmanagerTests.swift */; };
 		FB6C49F51C4F8357003E6363 /* pageBasedYachtmanagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6C49F41C4F8357003E6363 /* pageBasedYachtmanagerUITests.swift */; };
+		FB6C4A081C4F8826003E6363 /* YachtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6C4A071C4F8826003E6363 /* YachtViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		FBAD57BE1C4FB8920072D2E7 /* YachtModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAD57BD1C4FB8920072D2E7 /* YachtModel.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		FB25AC4E1C4FA670007D3F49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB25AC471C4FA670007D3F49 /* SwiftyJSON.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2E4FEFDB19575BE100351305;
+			remoteInfo = SwiftyJSON;
+		};
+		FB25AC501C4FA670007D3F49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB25AC471C4FA670007D3F49 /* SwiftyJSON.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2E4FEFE619575BE100351305;
+			remoteInfo = SwiftyJSONTests;
+		};
+		FB25AC521C4FA670007D3F49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB25AC471C4FA670007D3F49 /* SwiftyJSON.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4EC1C1C91A0C1A2D0026ED0B;
+			remoteInfo = SwiftyJSONOSX;
+		};
+		FB25AC541C4FA670007D3F49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB25AC471C4FA670007D3F49 /* SwiftyJSON.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4EC1C1D31A0C1A2D0026ED0B;
+			remoteInfo = SwiftyJSONOSXTests;
+		};
 		FB6C49E61C4F8357003E6363 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = FB6C49C91C4F8357003E6363 /* Project object */;
@@ -34,6 +67,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FB25AC261C4FA12E007D3F49 /* LocalAccessTokenManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalAccessTokenManager.swift; sourceTree = "<group>"; };
+		FB25AC281C4FA42E007D3F49 /* RestApiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestApiManager.swift; sourceTree = "<group>"; };
+		FB25AC471C4FA670007D3F49 /* SwiftyJSON.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SwiftyJSON.xcodeproj; path = "../../Downloads/SwiftyJSON-master/SwiftyJSON.xcodeproj"; sourceTree = "<group>"; };
+		FB6393F81C5108A400AA422F /* MaintenanceInfoBoxView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaintenanceInfoBoxView.swift; sourceTree = "<group>"; };
 		FB6C49D11C4F8357003E6363 /* pageBasedYachtmanager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pageBasedYachtmanager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB6C49D41C4F8357003E6363 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB6C49D61C4F8357003E6363 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +84,8 @@
 		FB6C49F01C4F8357003E6363 /* pageBasedYachtmanagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pageBasedYachtmanagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB6C49F41C4F8357003E6363 /* pageBasedYachtmanagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pageBasedYachtmanagerUITests.swift; sourceTree = "<group>"; };
 		FB6C49F61C4F8357003E6363 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB6C4A071C4F8826003E6363 /* YachtViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YachtViewController.swift; sourceTree = "<group>"; };
+		FBAD57BD1C4FB8920072D2E7 /* YachtModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = YachtModel.swift; path = ../YachtModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +113,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FB25AC251C4FA0C5007D3F49 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				FB25AC261C4FA12E007D3F49 /* LocalAccessTokenManager.swift */,
+				FB25AC281C4FA42E007D3F49 /* RestApiManager.swift */,
+			);
+			name = components;
+			sourceTree = "<group>";
+		};
+		FB25AC481C4FA670007D3F49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB25AC4F1C4FA670007D3F49 /* SwiftyJSON.framework */,
+				FB25AC511C4FA670007D3F49 /* SwiftyJSONTests.xctest */,
+				FB25AC531C4FA670007D3F49 /* SwiftyJSON.framework */,
+				FB25AC551C4FA670007D3F49 /* SwiftyJSONOSXTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB6393F71C51086400AA422F /* view */ = {
+			isa = PBXGroup;
+			children = (
+				FB6393F81C5108A400AA422F /* MaintenanceInfoBoxView.swift */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
 		FB6C49C81C4F8357003E6363 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +148,7 @@
 				FB6C49E81C4F8357003E6363 /* pageBasedYachtmanagerTests */,
 				FB6C49F31C4F8357003E6363 /* pageBasedYachtmanagerUITests */,
 				FB6C49D21C4F8357003E6363 /* Products */,
+				FB25AC471C4FA670007D3F49 /* SwiftyJSON.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +165,11 @@
 		FB6C49D31C4F8357003E6363 /* pageBasedYachtmanager */ = {
 			isa = PBXGroup;
 			children = (
+				FB6393F71C51086400AA422F /* view */,
+				FBAD57BF1C4FC1B60072D2E7 /* models */,
+				FB25AC251C4FA0C5007D3F49 /* components */,
+				FB6C4A041C4F843E003E6363 /* controllers */,
 				FB6C49D41C4F8357003E6363 /* AppDelegate.swift */,
-				FB6C49D61C4F8357003E6363 /* ViewController.swift */,
 				FB6C49D81C4F8357003E6363 /* Main.storyboard */,
 				FB6C49DB1C4F8357003E6363 /* Assets.xcassets */,
 				FB6C49DD1C4F8357003E6363 /* LaunchScreen.storyboard */,
@@ -123,6 +194,23 @@
 				FB6C49F61C4F8357003E6363 /* Info.plist */,
 			);
 			path = pageBasedYachtmanagerUITests;
+			sourceTree = "<group>";
+		};
+		FB6C4A041C4F843E003E6363 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FB6C49D61C4F8357003E6363 /* ViewController.swift */,
+				FB6C4A071C4F8826003E6363 /* YachtViewController.swift */,
+			);
+			name = controllers;
+			sourceTree = "<group>";
+		};
+		FBAD57BF1C4FC1B60072D2E7 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				FBAD57BD1C4FB8920072D2E7 /* YachtModel.swift */,
+			);
+			name = models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,6 +275,7 @@
 		FB6C49C91C4F8357003E6363 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = Reinier;
 				TargetAttributes = {
@@ -214,6 +303,12 @@
 			mainGroup = FB6C49C81C4F8357003E6363;
 			productRefGroup = FB6C49D21C4F8357003E6363 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = FB25AC481C4FA670007D3F49 /* Products */;
+					ProjectRef = FB25AC471C4FA670007D3F49 /* SwiftyJSON.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				FB6C49D01C4F8357003E6363 /* pageBasedYachtmanager */,
@@ -222,6 +317,37 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		FB25AC4F1C4FA670007D3F49 /* SwiftyJSON.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftyJSON.framework;
+			remoteRef = FB25AC4E1C4FA670007D3F49 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FB25AC511C4FA670007D3F49 /* SwiftyJSONTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SwiftyJSONTests.xctest;
+			remoteRef = FB25AC501C4FA670007D3F49 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FB25AC531C4FA670007D3F49 /* SwiftyJSON.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftyJSON.framework;
+			remoteRef = FB25AC521C4FA670007D3F49 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FB25AC551C4FA670007D3F49 /* SwiftyJSONOSXTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SwiftyJSONOSXTests.xctest;
+			remoteRef = FB25AC541C4FA670007D3F49 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		FB6C49CF1C4F8357003E6363 /* Resources */ = {
@@ -255,7 +381,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB6C4A081C4F8826003E6363 /* YachtViewController.swift in Sources */,
+				FBAD57BE1C4FB8920072D2E7 /* YachtModel.swift in Sources */,
+				FB25AC271C4FA12E007D3F49 /* LocalAccessTokenManager.swift in Sources */,
+				FB6393F91C5108A400AA422F /* MaintenanceInfoBoxView.swift in Sources */,
 				FB6C49D71C4F8357003E6363 /* ViewController.swift in Sources */,
+				FB25AC291C4FA42E007D3F49 /* RestApiManager.swift in Sources */,
 				FB6C49D51C4F8357003E6363 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -481,6 +612,7 @@
 				FB6C49FB1C4F8357003E6363 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FB6C49FC1C4F8357003E6363 /* Build configuration list for PBXNativeTarget "pageBasedYachtmanagerTests" */ = {
 			isa = XCConfigurationList;
@@ -489,6 +621,7 @@
 				FB6C49FE1C4F8357003E6363 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FB6C49FF1C4F8357003E6363 /* Build configuration list for PBXNativeTarget "pageBasedYachtmanagerUITests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +630,7 @@
 				FB6C4A011C4F8357003E6363 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
