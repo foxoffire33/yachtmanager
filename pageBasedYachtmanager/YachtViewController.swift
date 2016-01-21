@@ -79,15 +79,17 @@ class YachtViewController: UIViewController {
             self.labelWeight.text = "\(label): \(model!.weight!)"
         }
         print(index)
-        scrollView.contentSize.height = CGFloat(10000)
-        scrollView.addSubview(self.maintenanceInfoBox("MaintenanceOne",top:520))
-        scrollView.addSubview(self.maintenanceInfoBox("MaintenanceTwo",top:630))
-        
+        scrollView.contentSize.height = CGFloat(600)
+        scrollView.addSubview(self.maintenanceInfoBox("MaintenanceOne",top:500))
+        scrollView.addSubview(self.maintenanceInfoBox("MaintenanceTwo",top:620))
+        scrollView.scrollEnabled = true
+        scrollView.alwaysBounceVertical = true
     }
     
     func maintenanceInfoBox(text:String,top:CGFloat) -> UIView {
         let maintenanceInfoBoxView : UIView = UIView(frame: CGRectMake(0,top,320,100))
-        maintenanceInfoBoxView.backgroundColor = UIColor.blackColor()
+        self.scrollView.contentInset.bottom = 180
+        print(self.scrollView.contentSize.height)
         //add name label
         let label = UILabel(frame: CGRect(x: 20,y: 20,width: maintenanceInfoBoxView.frame.width,height: maintenanceInfoBoxView.frame.height))
         label.text = text
