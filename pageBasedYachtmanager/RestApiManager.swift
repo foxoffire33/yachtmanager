@@ -68,4 +68,18 @@ class RestApiManager {
         }
         task.resume()
     }
+    
+    func httpDeleRequesttWithAccessToken(url:String,token:String,completionHandler: (Bool) -> ()) -> (){
+        let url = NSURL(string: String(baseUrl + url))//request url
+        let session = NSURLSession.sharedSession()//start session
+        //header toevoegen aan request
+        let muableRequest = NSMutableURLRequest(URL: url!)
+        muableRequest.setValue("application/json", forHTTPHeaderField: "Accept")
+        muableRequest.setValue("Bearer \(token)", forHTTPHeaderField: "Authorization")
+        muableRequest.HTTPMethod = "DELETE"
+        let task = session.dataTaskWithRequest(muableRequest) { (data, response, error) -> Void in
+                completionHandler(true)
+        }
+        task.resume()
+    }
 }

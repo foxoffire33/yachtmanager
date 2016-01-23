@@ -182,11 +182,46 @@
                         <outlet property="lebelLength" destination="g5U-bL-SsJ" id="Lfn-gD-FkX"/>
                         <outlet property="scrollView" destination="qPc-M4-tiF" id="HbG-gQ-AaM"/>
                         <outlet property="yachtTitle" destination="jsJ-WK-l6h" id="YL8-Ke-var"/>
+                        <segue destination="iQc-r5-cxA" kind="presentation" identifier="fromYachtViewControllerToMaintenanceViewController" id="3VF-sL-8b0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KtK-4a-LFy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="996" y="935"/>
+            <point key="canvasLocation" x="555" y="653"/>
+        </scene>
+        <!--Maintenance View Controller-->
+        <scene sceneID="AXH-HJ-N41">
+            <objects>
+                <viewController storyboardIdentifier="MaintenanceViewController" id="iQc-r5-cxA" customClass="MaintenanceViewController" customModule="pageBasedYachtmanager" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="adV-8f-veb"/>
+                        <viewControllerLayoutGuide type="bottom" id="3zl-UH-WQJ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="maS-qD-HRA">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VnZ-e6-RiU">
+                                <rect key="frame" x="542" y="20" width="30" height="30"/>
+                                <state key="normal" title="X"/>
+                                <connections>
+                                    <action selector="CloseButton:" destination="iQc-r5-cxA" eventType="touchUpInside" id="Hvh-5G-GqL"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="VnZ-e6-RiU" secondAttribute="trailing" constant="8" id="EhS-2p-Say"/>
+                            <constraint firstItem="VnZ-e6-RiU" firstAttribute="top" secondItem="adV-8f-veb" secondAttribute="bottom" id="wxa-Rb-NwK"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <segue destination="dr5-Fs-963" kind="presentation" identifier="goToYachtViewController" id="9sP-u1-FoG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2nS-xT-UsV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1229" y="1030"/>
         </scene>
     </scenes>
 </document>

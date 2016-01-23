@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB0588B31C539F4B008F23A5 /* MaintenanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0588B21C539F4B008F23A5 /* MaintenanceViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		FB25AC271C4FA12E007D3F49 /* LocalAccessTokenManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB25AC261C4FA12E007D3F49 /* LocalAccessTokenManager.swift */; settings = {ASSET_TAGS = (); }; };
 		FB25AC291C4FA42E007D3F49 /* RestApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB25AC281C4FA42E007D3F49 /* RestApiManager.swift */; settings = {ASSET_TAGS = (); }; };
 		FB6393F91C5108A400AA422F /* MaintenanceInfoBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6393F81C5108A400AA422F /* MaintenanceInfoBoxView.swift */; settings = {ASSET_TAGS = (); }; };
@@ -67,6 +68,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FB0588B21C539F4B008F23A5 /* MaintenanceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaintenanceViewController.swift; sourceTree = "<group>"; };
 		FB25AC261C4FA12E007D3F49 /* LocalAccessTokenManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalAccessTokenManager.swift; sourceTree = "<group>"; };
 		FB25AC281C4FA42E007D3F49 /* RestApiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestApiManager.swift; sourceTree = "<group>"; };
 		FB25AC471C4FA670007D3F49 /* SwiftyJSON.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SwiftyJSON.xcodeproj; path = "../../Downloads/SwiftyJSON-master/SwiftyJSON.xcodeproj"; sourceTree = "<group>"; };
@@ -201,6 +203,7 @@
 			children = (
 				FB6C49D61C4F8357003E6363 /* ViewController.swift */,
 				FB6C4A071C4F8826003E6363 /* YachtViewController.swift */,
+				FB0588B21C539F4B008F23A5 /* MaintenanceViewController.swift */,
 			);
 			name = controllers;
 			sourceTree = "<group>";
@@ -385,6 +388,7 @@
 				FBAD57BE1C4FB8920072D2E7 /* YachtModel.swift in Sources */,
 				FB25AC271C4FA12E007D3F49 /* LocalAccessTokenManager.swift in Sources */,
 				FB6393F91C5108A400AA422F /* MaintenanceInfoBoxView.swift in Sources */,
+				FB0588B31C539F4B008F23A5 /* MaintenanceViewController.swift in Sources */,
 				FB6C49D71C4F8357003E6363 /* ViewController.swift in Sources */,
 				FB25AC291C4FA42E007D3F49 /* RestApiManager.swift in Sources */,
 				FB6C49D51C4F8357003E6363 /* AppDelegate.swift in Sources */,
